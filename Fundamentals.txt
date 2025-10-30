@@ -1,1 +1,15 @@
 This File Will contain the fundamentals of IT.
+
+The core components of computer system:
+
+cpu- 
+Often dubbed the "brain" of the computer, the CPU is responsible for executing instructions, performing arithmetic, logic, controlling, and input/output (I/O) operations specified by the software. It is a highly complex integrated circuit.
+
+Function: Processes data, performs calculations, and manages overall system operations.
+Key Specifications:
+Cores: Independent processing units within the CPU. A multi-core CPU can execute multiple instructions simultaneously.
+Threads: Virtual components of a CPU core that manage tasks. Each core can often handle two threads (hyper-threading/SMT), improving multitasking.
+Clock Speed (GHz): Measures the number of cycles the CPU can execute per second. Higher clock speeds generally mean faster performance, though core count and architecture are equally important.
+Cache: Small, fast memory (L1, L2, L3) built directly into the CPU to store frequently accessed data, reducing the need to access slower RAM.
+Manufacturers: The primary manufacturers are Intel (e.g., Core i3/i5/i7/i9, Xeon) and AMD (e.g., Ryzen 3/5/7/9, Threadripper, EPYC).
+Socket Types: The physical connector on the motherboard where the CPU is installed. CPU and motherboard sockets must be compatible (e.g., LGA 1700 for Intel, AM5 for AMD).
