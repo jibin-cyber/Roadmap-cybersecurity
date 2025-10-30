@@ -13,3 +13,19 @@ Clock Speed (GHz): Measures the number of cycles the CPU can execute per second.
 Cache: Small, fast memory (L1, L2, L3) built directly into the CPU to store frequently accessed data, reducing the need to access slower RAM.
 Manufacturers: The primary manufacturers are Intel (e.g., Core i3/i5/i7/i9, Xeon) and AMD (e.g., Ryzen 3/5/7/9, Threadripper, EPYC).
 Socket Types: The physical connector on the motherboard where the CPU is installed. CPU and motherboard sockets must be compatible (e.g., LGA 1700 for Intel, AM5 for AMD).
+
+Motherboard
+The motherboard, or mainboard, serves as the central communication backbone of the computer. It's a large printed circuit board that connects all the computer's components, allowing them to communicate and receive power.
+
+Function: Provides the electrical connections and logical pathways for all other hardware components to interact.
+
+Key Components:
+CPU Socket: Where the CPU is installed.
+RAM Slots (DIMM Slots): Where memory modules are inserted.
+Chipset: A set of integrated circuits that manages data flow between the CPU, RAM, storage, and peripherals. It acts as a data traffic controller.
+Expansion Slots (PCIe Slots): Used for installing expansion cards like graphics cards, sound cards, and network cards. Modern systems primarily use PCI Express (PCIe).
+Storage Connectors:
+SATA (Serial ATA): For connecting traditional hard drives (HDDs) and 2.5-inch Solid State Drives (SSDs).
+M.2 Slots: For connecting high-speed NVMe SSDs, which offer significantly faster performance than SATA.
+I/O Panel: Provides external ports for connecting peripherals (USB, Ethernet, audio jacks, video outputs).
+Form Factors: Defines the motherboard's physical dimensions and mounting hole layout, influencing case compatibility. Common sizes include ATX, Micro-ATX, and Mini-ITX.
