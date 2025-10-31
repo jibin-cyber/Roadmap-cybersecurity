@@ -29,3 +29,15 @@ SATA (Serial ATA): For connecting traditional hard drives (HDDs) and 2.5-inch So
 M.2 Slots: For connecting high-speed NVMe SSDs, which offer significantly faster performance than SATA.
 I/O Panel: Provides external ports for connecting peripherals (USB, Ethernet, audio jacks, video outputs).
 Form Factors: Defines the motherboard's physical dimensions and mounting hole layout, influencing case compatibility. Common sizes include ATX, Micro-ATX, and Mini-ITX.
+
+Random Access Memory (RAM)
+RAM is a form of volatile computer memory that stores data and program instructions currently being used by the CPU. Unlike long-term storage, RAM is extremely fast but loses its contents when the power is turned off.
+
+Function: Provides high-speed, temporary storage for active programs and data, allowing the CPU quick access.
+Types: Modern desktop and laptop systems primarily use DDR (Double Data Rate) synchronous dynamic RAM.
+DDR4: Common in older systems, still widely used.
+DDR5: Newer standard offering higher speeds and bandwidth.
+Specifications:
+Capacity (GB): The total amount of data RAM can hold (e.g., 8GB, 16GB, 32GB). More RAM generally allows for smoother multitasking and handling of larger applications.
+Speed (MHz/MT/s): The rate at which data can be transferred. Higher speeds lead to better performance.
+Latency (CL): A measure of the delay between a command being issued and data being retrieved. Lower latency is better.
