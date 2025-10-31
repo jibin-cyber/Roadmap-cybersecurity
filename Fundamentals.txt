@@ -41,3 +41,20 @@ Specifications:
 Capacity (GB): The total amount of data RAM can hold (e.g., 8GB, 16GB, 32GB). More RAM generally allows for smoother multitasking and handling of larger applications.
 Speed (MHz/MT/s): The rate at which data can be transferred. Higher speeds lead to better performance.
 Latency (CL): A measure of the delay between a command being issued and data being retrieved. Lower latency is better.
+
+Storage Devices
+Storage devices are responsible for long-term retention of data, applications, and the operating system, even when the computer is powered off.
+
+Function: Non-volatile storage for permanent data.
+Types:
+Hard Disk Drives (HDDs):
+Mechanism: Utilize spinning platters and read/write heads to store data magnetically.
+Characteristics: High capacity for a low cost, but slower due to mechanical parts.
+Speed: Measured in Revolutions Per Minute (RPM), commonly 5400 RPM or 7200 RPM.
+Solid State Drives (SSDs):
+Mechanism: Use flash memory (NAND) to store data electronically. No moving parts.
+Characteristics: Significantly faster, more durable, and consume less power than HDDs. More expensive per gigabyte.
+Interfaces:
+SATA SSDs: Connect via SATA III, offering speeds up to 600 MB/s.
+NVMe (Non-Volatile Memory Express) SSDs: Connect via PCIe slots (often M.2 form factor), offering much higher speeds (thousands of MB/s) by directly communicating with the CPU.
+Hybrid Drives (SSHDs): Combine a small amount of SSD-like flash memory with a traditional HDD to offer a balance of speed for frequently accessed files and large capacity.
