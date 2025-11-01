@@ -13,6 +13,7 @@ Clock Speed (GHz): Measures the number of cycles the CPU can execute per second.
 Cache: Small, fast memory (L1, L2, L3) built directly into the CPU to store frequently accessed data, reducing the need to access slower RAM.
 Manufacturers: The primary manufacturers are Intel (e.g., Core i3/i5/i7/i9, Xeon) and AMD (e.g., Ryzen 3/5/7/9, Threadripper, EPYC).
 Socket Types: The physical connector on the motherboard where the CPU is installed. CPU and motherboard sockets must be compatible (e.g., LGA 1700 for Intel, AM5 for AMD).
+https://www.youtube.com/watch?v=7aaIhPu9umg
 
 Motherboard
 The motherboard, or mainboard, serves as the central communication backbone of the computer. It's a large printed circuit board that connects all the computer's components, allowing them to communicate and receive power.
