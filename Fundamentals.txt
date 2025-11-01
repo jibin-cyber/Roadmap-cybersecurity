@@ -30,6 +30,47 @@ M.2 Slots: For connecting high-speed NVMe SSDs, which offer significantly faster
 I/O Panel: Provides external ports for connecting peripherals (USB, Ethernet, audio jacks, video outputs).
 Form Factors: Defines the motherboard's physical dimensions and mounting hole layout, influencing case compatibility. Common sizes include ATX, Micro-ATX, and Mini-ITX.
 
+Threads:-
+Definition of a Thread (in CPU context)
+
+A thread is the smallest unit of processing that a CPU can handle.
+It represents a single sequence of instructions that the CPU executes independently.
+In (Simple Terms):-
+
+Think of a core as a worker, and a thread as a task that worker can perform.
+Some cores can handle two tasks (threads) at the same time — this is called Hyper-Threading (in Intel CPUs).
+
+(A)How are threads divided to cores, this is an example of intel i5?
+
+| Specification                        | Value |
+| ------------------------------------ | ----- |
+| **Total Cores**                      | 10    |
+| **Performance (P) Cores**            | 2     |
+| **Efficient (E) Cores**              | 8     |
+| **Low Power Efficient (LP-E) Cores** | 0     |
+| **Total Threads**                    | 12    |
+⚙️ Thread Distribution Logic:-
+
+Intel’s hybrid architecture (used in 12th, 13th, and 14th gen Core CPUs) divides cores into:
+
+P-cores (Performance cores): Support Hyper-Threading → 2 threads per core
+
+E-cores (Efficient cores): Do not support Hyper-Threading → 1 thread per core
+Calculation:-
+| Core Type             | # of Cores | Threads per Core | Total Threads    |
+| --------------------- | ---------- | ---------------- | ---------------- |
+| Performance (P) Cores | 2          | 2                | **4 threads**    |
+| Efficient (E) Cores   | 8          | 1                | **8 threads**    |
+| **Total**             | **10**     |                  | **12 threads** ✅ |
+Summary:-
+
+So, your Intel Core i5 (most likely a 12th–14th Gen model like i5-13400 or i5-13600) has:
+
+2 P-cores → 4 threads
+
+8 E-cores → 8 threads
+Total: 12 threads
+
 Random Access Memory (RAM)
 RAM is a form of volatile computer memory that stores data and program instructions currently being used by the CPU. Unlike long-term storage, RAM is extremely fast but loses its contents when the power is turned off.
 
