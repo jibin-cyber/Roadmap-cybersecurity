@@ -212,6 +212,75 @@ Example: Nintendo Amiibo figures use NFC to unlock content in games.
 
 Use case: Car keys (keyless entry), pairing phones with infotainment systems.
 
+🔹 Bluetooth in Cybersecurity
+🧠 What is Bluetooth?
+
+Bluetooth is a wireless communication technology used for exchanging data over short distances (typically up to 10 meters) using radio waves. It's widely used in devices like smartphones, headsets, IoT devices, cars, keyboards, and wearables.
+
+⚠️ Security Risks in Bluetooth
+
+Bluejacking
+
+Sending unsolicited messages to Bluetooth-enabled devices.
+
+Mostly harmless but can be used for phishing or social engineering.
+
+Bluesnarfing
+
+Unauthorized access to information on a Bluetooth-enabled device.
+
+Attackers can steal contacts, messages, or files if the device is set to discoverable mode.
+
+Bluebugging
+
+Grants the attacker control of the target device.
+
+They might make calls, send messages, or access internet services secretly.
+
+Bluetooth Impersonation (BIAS)
+
+A vulnerability that allows attackers to spoof legitimate device identities.
+
+Enables unauthorized pairing or access.
+
+Man-in-the-Middle (MITM) Attacks
+
+Intercepting data between two connected Bluetooth devices.
+
+Often exploited during insecure pairing processes.
+
+Denial of Service (DoS)
+
+Flooding the Bluetooth channel to prevent legitimate use.
+
+Can disable or crash Bluetooth services.
+
+🔐 Bluetooth Security Measures
+
+Use Secure Simple Pairing (SSP)
+Uses encryption and authentication, especially with numeric comparison or passkey entry.
+
+Turn Off Bluetooth When Not In Use
+Reduces exposure and chance of unauthorized access.
+
+Use "Non-Discoverable" or "Invisible" Mode
+Makes it harder for attackers to detect your device.
+
+Regular Device Updates
+Manufacturers often patch known vulnerabilities.
+
+Use Trusted Devices Only
+Don't accept pairing or file transfer requests from unknown sources.
+
+Application-Level Encryption
+Even if Bluetooth is compromised, data remains safe.
+
+🔍 Bluetooth in Ethical Hacking
+
+Ethical hackers use tools like BlueMaho, BlueBorne, and BTScanner to test vulnerabilities.
+
+Security assessments help organizations secure Bluetooth-enabled IoT and mobile devices.
+
 
 
 
