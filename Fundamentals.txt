@@ -281,9 +281,17 @@ Ethical hackers use tools like BlueMaho, BlueBorne, and BTScanner to test vulner
 
 Security assessments help organizations secure Bluetooth-enabled IoT and mobile devices.
 
-WiFi
+WiFi:-
 WiFi is a wireless networking technology that allows devices to connect to the internet and communicate with each other without physical cables. It uses radio waves to transmit data, typically operating on the 2.4 GHz and 5 GHz frequency bands. WiFi networks are created by wireless routers or access points and can be found in homes, offices, public spaces, and many other locations. The technology follows IEEE 802.11 standards, with newer versions (like WiFi 6 or 802.11ax) offering increased speeds, better performance in crowded areas, and improved energy efficiency. WiFi enables the proliferation of mobile and smart devices, supporting the Internet of Things (IoT) and allowing for greater flexibility and mobility in network connectivity.
 
+Infrared:-
+Infrared refers (IR) to a wireless mobile method that transfers data over short-to-mid ranges in order for devices to communicate. It has a longer wavelength than visible light but shorter than radio waves. IR radiation is not visible to the human eye, but only specific electronic sensors and cameras can detect it. Yet infrared has limitations, including a limited range, line-of-sight limitations, limited data transfer rate, susceptibility to interference, limited penetration, and security risks. Hackers still manage to misuse this technology to their advantage.
+
+Infrared misusage
+Spoofing devices on the same network. Infrared smart light bulbs can serve as the ideal solution for hackers to spoof all connected devices on one Wi-Fi network. Then, they can cause data leaks or steal confidential data, such as IP addresses.
+Hackers can control the infrared wave. Once they intercept the connection, they will be able to constantly monitor the data that two devices share and steal data users store on their computers, such as login credentials, messages, and emails. Such hacking requires advanced technical knowledge and equipment and is therefore less common than other types of attacks.
+Steal IoT data. As many IoT devices utilize infrared bulbs, hackers can use them to exploit vulnerabilities and steal sensitive user data.
+Monitor security cameras. By intercepting infrared waves, hackers can access the company’s security cameras, which may assist hackers in monitoring the company's actions and entering their security system through the cameras.
 
 
 
