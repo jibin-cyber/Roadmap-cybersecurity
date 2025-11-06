@@ -293,5 +293,118 @@ Hackers can control the infrared wave. Once they intercept the connection, they 
 Steal IoT data. As many IoT devices utilize infrared bulbs, hackers can use them to exploit vulnerabilities and steal sensitive user data.
 Monitor security cameras. By intercepting infrared waves, hackers can access the company’s security cameras, which may assist hackers in monitoring the company's actions and entering their security system through the cameras.
 
+Basics of Computer Networking
+Computer networking is the practice of connecting computers and devices to share data and resources. It involves the use of protocols like TCP/IP for communication, hardware such as routers and switches for directing traffic, and various network topologies (e.g., star, mesh, bus) for organizing connections. Networks can be categorized by size and scope, from small local area networks (LANs) to wide area networks (WANs) that span large geographical areas. Key concepts include IP addressing, subnetting, DNS for name resolution, and network security measures. Understanding networking basics is crucial for managing data flow, troubleshooting connectivity issues, and ensuring efficient communication in modern computing environments.
+
+The foundations of networking
+Switches, routers, and wireless access points are the essential networking basics. Through them, devices connected to your network can communicate with one another and with other networks, like the Internet. Switches, routers, and wireless access points perform very different functions in a network.
+
+Switches
+Switches are the foundation of most business networks. A switch acts as a controller, connecting computers, printers, and servers to a network in a building or a campus.
+
+On-premises or cloud-managed? Discover which network switch fits your small business needs.
+Explore switches
+
+Switches allow devices on your network to communicate with each other, as well as with other networks, creating a network of shared resources. Through information sharing and resource allocation, switches save money and increase productivity.
+
+There are two basic types of switches to choose from as part of your networking basics: on-premises and cloud-managed.
+
+A managed on-premises switch lets you configure and monitor your LAN, giving you tighter control of your network traffic.
+Have a small IT team? A cloud-managed switch can simplify your network management. You get a simple user interface, multisite full-stack management, and automatic updates delivered directly to the switch.
+Routers
+Routers connect multiple networks together. They also connect computers on those networks to the Internet. Routers enable all networked computers to share a single Internet connection, which saves money. 
+
+A router acts a dispatcher. It analyzes data being sent across a network, chooses the best route for data to travel, and sends it on its way. 
+
+Routers connect your business to the world, protect information from security threats, and can even decide which computers receive priority over others. 
+
+Beyond those basic networking functions, routers come with additional features to make networking easier or more secure. Depending on your security needs, for example, you can choose a router with a firewall, a virtual private network (VPN), or an Internet Protocol (IP) communications system.
+
+Access Points
+An access point* allows devices to connect to the wireless network without cables. A wireless network makes it easy to bring new devices online and provides flexible support to mobile workers.
+
+Explore access points
+
+An access point acts like an amplifier for your network. While a router provides the bandwidth, an access point extends that bandwidth so that the network can support many devices, and those devices can access the network from farther away.
+
+But an access point does more than simply extend Wi-Fi. It can also give useful data about the devices on the network, provide proactive security, and serve many other practical purposes.
+
+*Access points support different IEEE standards. Each standard is an amendment that was ratified over time. The standards operate on varying frequencies, deliver different bandwidth, and support different numbers of channels.
+
+Wireless Networking
+To create your wireless network, you can choose between three types of deployment: centralized deployment, converged deployment, and cloud-based deployment. Need help figuring out which deployment is best for your business? 
+1. Centralized deployment
+
+The most common type of wireless network system, centralized deployments are traditionally used in campuses where buildings and networks are in close proximity. This deployment consolidates the wireless network, which makes upgrades easier and facilitates advanced wireless functionality. Controllers are based on-premises and are installed in a centralized location.  
+
+2. Converged deployment
+
+For small campuses or branch offices, converged deployments offer consistency in wireless and wired connections. This deployment converges wired and wireless on one network device—an access switch—and performs the dual role of both switch and wireless controller.
+
+3. Cloud-based deployment
+
+This system uses the cloud to manage network devices deployed on-premises at different locations. The solution requires Cisco Meraki cloud-managed devices, which provide full visibility of the network through their dashboards. 
+
+What is TCP/IP?
+
+TCP/IP (Transmission Control Protocol / Internet Protocol) is a suite of communication protocols used to interconnect network devices on the internet and private networks. It’s not a single protocol, but a family of them, with TCP and IP being the most widely used.
+
+📦 IP (Internet Protocol)
+
+Layer: Network Layer (Layer 3 in OSI)
+
+Purpose: Moves data packets between devices across networks.
+
+Key Features:
+
+Addressing: Uses IP addresses (IPv4 or IPv6) to identify devices.
+
+Packet Routing: Delivers packets from source to destination.
+
+Best-Effort Delivery: Does not guarantee delivery, order, or error-free transmission.
+
+📌 Analogy: IP is like the postal service — it carries a package (data) from one address to another, but doesn’t guarantee it reaches safely or in order.
+
+🔁 TCP (Transmission Control Protocol)
+
+Layer: Transport Layer (Layer 4 in OSI)
+
+Purpose: Ensures reliable communication between applications.
+
+Key Features:
+
+Connection-oriented (3-way handshake)
+
+Reliable delivery (acknowledgments, retransmissions)
+
+Ordered data stream
+
+Flow & Congestion Control
+
+📌 Analogy: TCP is like a courier service — it ensures your package gets delivered, unbroken, and in the right order.
+
+🧩 How TCP and IP Work Together
+
+When you send data (e.g. a web request), here's what happens:
+
+TCP: Breaks data into segments, adds reliability information (sequence numbers, ACKs).
+
+IP: Packages segments into packets and routes them across networks to the destination address.
+
+At the receiver end:
+
+IP: Delivers packets to the right device.
+
+TCP: Reassembles them in order, checks for errors, and delivers to the application.
+
+
+
+
+
+
+
+
+
+
 
 
