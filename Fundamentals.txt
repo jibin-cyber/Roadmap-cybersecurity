@@ -421,6 +421,177 @@ Online and Offline Processing: In online processing of data, the user remains in
 
 Operating systems contribute to simplifying human interaction with the computer hardware. They are responsible for linking application programs with the hardware, thus achieving easy user access to computers. Ever imagined a computer without an OS? It wouldn’t be so user-friendly then!
 
+Linux:-
+
+Linux is an open-source UNIX-based operating system. The main component of the Linux operating system is Linux kernel. It is developed to provide low-cost or free operating system service to personal system users, which includes an X-window system, Emacs editor, IP/TCP GUI, etc.
+
+What is Linux? (Easy Explanation)
+
+Linux is an operating system (OS) — like Windows or macOS — but it's free, open-source, and used everywhere: computers, servers, phones, routers, TVs, cars, etc.
+
+But more precisely:
+
+✔ Linux = The Kernel
+
+The kernel is the core part of the operating system.
+
+It handles:
+
+hardware (CPU, RAM, disk),
+
+processes,
+
+memory,
+
+networking, etc.
+
+✔ GNU/Linux = The Full OS
+
+Most people say “Linux” when they actually mean the complete system that includes:
+
+the Linux kernel
+
+GNU tools
+
+other system utilities
+
+desktop environments
+
+package managers
+
+These complete systems are called Linux distributions.
+Linux distribution
+A Linux system package, known as a distribution, consists of multiple Linux distributions available for different computing needs. Linux distribution is developed using a set of software based on compatibility with the Linux core kernel, using which Linux-based operations in different systems, such as personal systems, embedded systems, etc. There are around 600 distributions available.
+
+Each distribution has specialized packages installed to support specific tasks. This means you can download software related to your field of work using a Linux distribution.
+
+Examples of Linux Distributions
+
+Popular ones include:
+
+Ubuntu
+
+Debian
+
+Fedora
+
+Red Hat Enterprise Linux
+
+Arch Linux
+
+Kali Linux
+
+CentOS / Rocky / AlmaLinux
+
+Each one uses the same kernel but different tools and flavors.
+
+Linux Architecture (Easy Diagram + Explanation)
+
+Linux follows a layered architecture. Think of it like a cake with multiple layers, each doing a specific job.
+
++---------------------------+
+|     Applications          |
++---------------------------+
+|     Shell (CLI)          |
++---------------------------+
+|     System Libraries      |
++---------------------------+
+|     Linux Kernel          |
++---------------------------+
+|     Hardware              |
++---------------------------+
+1. Hardware
+
+The physical components:
+
+CPU
+
+RAM
+
+Hard disk / SSD
+
+Network card
+
+Keyboard, mouse, screen
+
+Everything at the bottom.
+
+2. Linux Kernel (The Core)
+
+This is the heart of Linux.
+The kernel controls all communication between software and hardware.
+
+The kernel manages:
+
+Memory
+
+Processes
+
+Filesystems
+
+Device drivers
+
+Networking
+
+Security
+
+3. System Libraries
+
+These are functions that programs use to talk to the kernel.
+
+The most important one:
+
+glibc (GNU C Library)
+
+Example: When a program wants to open a file, it uses system libraries → libraries talk to kernel → kernel opens it.
+
+4. Shell (Command Interpreter)
+
+The shell is what you type commands into:
+
+bash
+
+zsh
+
+fish
+
+sh
+
+It takes your commands (ls, cd, cp), interprets them, and sends instructions to the kernel.
+
+5. Applications
+
+Everything you run:
+
+Firefox
+
+VS Code
+
+Docker
+
+apt, yum, pacman
+
+Python, Java, Go programs
+
+Custom scripts
+
+Applications → System Libraries → Kernel → Hardware
+
+Short Summary :-
+Layer	What it does
+Hardware	Physical components
+Kernel	Controls everything; talks to hardware
+System Libraries	Provide functions to communicate with kernel
+Shell	Lets you interact with the OS
+Applications	Programs you run
+
+
+
+
+
+
+
+
 
 
 
