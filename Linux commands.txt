@@ -1,0 +1,43 @@
+To 60 essential Linux commands
+
+ls command :
+This command helps to list the content inside the folder like files.
+To list items inside the subfolder use command ls -R
+
+pwd command :
+It shows your current working directory.
+e.g /home/yourname
+
+cd command :
+The cd (Change Directory) command in Linux is used to navigate between directories in the file system.
+e.g cd [directory name]
+options- cd .. moves a directory up.
+         cd - goes back to the previous directory.
+
+mkdir command :
+This command helps to create folder.
+e.g mkdir folder name
+
+rmdir command :
+This command helps to delete empty directories in your Linux system.
+The rmdir command won’t work if the directory contains subfolders. To force the deletion, add the –p option.
+
+rm command :
+The rm command deletes files from a directory.
+e.g rm [options] file1 file2
+You can add the -r option to remove a folder and its contents, including subdirectories.
+
+cp command :
+Use the cp command to copy files from your current directory to another folder
+e.g cp file1 file2 [target_path]
+
+mv command :
+The main usage of the mv command is to move a file or folder to another location
+e.g mv file_or_directory [target_directory]
+You can also use the mv command to rename files in your Linux system. Here’s an example:
+e.g mv old_name.txt new_name.txt
+
+ touch command :
+ Run the touch command to create a new empty file in a specific directory.
+ e.g touch file.txt
+ 
