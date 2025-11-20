@@ -41,3 +41,49 @@ e.g mv old_name.txt new_name.txt
  Run the touch command to create a new empty file in a specific directory.
  e.g touch file.txt
  
+ file command :
+ The file command checks a file type, such as TXT, PDF, or other. The syntax is as follows:
+ file [file_name]
+
+ zip and unzip commands :
+ The zip command compresses one or multiple files into a ZIP archive, reducing their size.
+ e.g zip [options] zip_file_name file1 file2
+ To extract a compressed file into your current working directory, use the unzip command like so:
+ unzip [options] zip_file_name
+
+  tar command :
+  The tar command in Linux is used to create, extract, and manage archive files (typically .tar, .tar.gz, .tgz, .tar.bz2, etc.). The command tar stands for Tape ARchive. Originally, tar was created to write multiple files onto magnetic tape for backups.
+Even though we don't use tapes today, the name stayed — and tar is now the standard tool for packaging files into a single archive.
+  A. Create a tar archive
+  tar -cvf archive_name.tar folder_or_files
+  c = create, v = verbose (shows progress), f = file name
+
+  B. Create a compressed archive (gzip)
+  e.g tar -czvf backup.tar.gz myfolder/
+  z = gzip compression
+
+  C. Extract a tar file for tar.gz
+  e.g tar -xzvf backup.tar.gz
+  x = extract
+
+  D. View the contents of a tar file
+  e.g tar -tvf backup.tar
+  t = list contents
+
+cat command :
+The cat command in Linux is used to view, create, and combine text files.
+A. Display the contents of a file
+e.g cat filename.txt
+
+B. Create a new file using cat
+cat > newfile.txt
+Type your content
+Press CTRL + D to save
+
+C. Append (add) text to an existing file
+cat >> existingfile.txt
+Type your content
+Press CTRL + D
+
+D. Number the lines while printing
+cat -n filename.txt
