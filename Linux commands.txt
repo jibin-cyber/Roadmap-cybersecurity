@@ -87,3 +87,39 @@ Press CTRL + D
 
 D. Number the lines while printing
 cat -n filename.txt
+
+grep command :
+The grep command is one of the most useful tools in Linux and Unix systems. It is used to search for specific words, phrases, or patterns inside text files, and shows the matching lines on your screen.
+
+e.g grep "python" notes.txt
+Commonly Used grep Options:-
+1. Case insensitive search:
+The -i option enables to search for a string case insensitively in the given file. It matches the words like "UNIX", "Unix", "unix". 
+e.g grep -i "UNix" geekfile.txt
+
+2. Display the Matching Filenames Using grep:
+We can just display the files that contains the given string/pattern. 
+e.g grep -l "unix" *
+
+3. Checking Whole Words Using grep:
+The -w option to grep makes it match only the whole words
+e.g grep -w "unix" geekfile.txt
+
+4. Display Matched Pattern Using grep:
+We can make the grep to display only the matched string by using the -o option. 
+e.g grep -o "unix" geekfile.txt
+
+sed command :
+The sed command in Linux, short for stream editor, is a non-interactive text editor used to perform basic text transformations on an input stream, such as a file or input from a pipeline
+1. Replacing or substituting string:
+Sed command is mostly used to replace the text in a file. The below simple sed command replaces the word "unix" with "linux" in the file. Here the "s" specifies the substitution operation. The "/" are delimiters. The "unix" is the search pattern and the "linux" is the replacement string.
+e.g sed 's/unix/linux/' geekfile.txt
+
+2. Replacing the nth Occurrence of a Pattern in a Line:
+To replace only the nth occurance of a word in a line, Use the '/1', '/2' etc. flags to replace the first, second occurrence of a pattern in a line. The below command replaces the second occurrence of the word "unix" with "linux" in a line.
+e.g sed 's/unix/linux/2' geekfile.txt
+
+3. Replacing all the Occurrence of the Pattern in a Line:
+we will use the g flag to replace all the occurances of a pattern in a line. The substitute flag /g (global replacement) specifies the sed command to replace all the occurrences of the string in the line.
+e.g sed 's/unix/linux/g' geekfile.txt
+
