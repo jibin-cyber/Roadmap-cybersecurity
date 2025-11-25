@@ -123,3 +123,42 @@ e.g sed 's/unix/linux/2' geekfile.txt
 we will use the g flag to replace all the occurances of a pattern in a line. The substitute flag /g (global replacement) specifies the sed command to replace all the occurrences of the string in the line.
 e.g sed 's/unix/linux/g' geekfile.txt
 
+head command :
+The head command is used to display the first few lines of a file.
+By default, it shows 10 lines.
+Command	              Meaning
+head file.txt	       Shows first 10 lines
+head -n 5 file.txt	 Shows first 5 lines
+head -n 20 file.txt	 Shows first 20 lines
+head -c 50 file.txt	 Shows first 50 bytes
+head /etc/passwd	   View first 10 lines of system file
+
+ tail command :
+ The tail command is used to display the last lines of a file.
+By default, it shows the last 10 lines.
+Command	          Meaning
+tail file.txt	      Shows last 10 lines
+tail -n 5 file.txt	Shows last 5 lines
+tail -n 20 file.txt	Shows last 20 lines
+tail -c 50 file.txt	Shows last 50 bytes
+tail -f file.log	  Follow the file (live updates) — useful for logs
+
+sort command :
+The sort command arranges lines of text in alphabetical or numerical order.
+e.g sort filename
+By default:
+
+Sorts alphabetically (A → Z)
+
+Sort in reverse order-
+sort -r names.txt
+
+Sort numbers (important!)-
+sort -n marks.txt
+
+Sort by a specific column-
+sort -k 2 students.txt 2 indicates 2nd column
+
+Remove duplicates while sorting-
+sort -u names.TXT
+
