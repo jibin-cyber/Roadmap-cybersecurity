@@ -162,3 +162,75 @@ sort -k 2 students.txt 2 indicates 2nd column
 Remove duplicates while sorting-
 sort -u names.TXT
 
+cut command :
+The cut command is used to extract specific columns or fields from a line of text.
+It works especially well with CSV-like data or delimited text.
+Common Options
+1️⃣ -d → delimiter
+
+Specify the delimiter (comma, colon, space, etc.)
+
+2️⃣ -f → fields
+
+Pick which fields (columns) to extract.
+
+3️⃣ -c → characters
+
+Extract specific characters from each line.
+e.g:-
+101,Amit,Developer,45000
+102,Ravi,Manager,60000
+103,Neha,Tester,40000
+
+1. Extract only the names (2nd column)-
+cut -d ',' -f 2 employees.txt
+
+2. Extract the employee ID and salary (1st and 4th columns)-
+cut -d ',' -f 1,4 employees.txt
+
+3. Extract only the first 3 characters of each line-
+cut -c 1-3 employees.txt
+
+diff command :
+The diff command is used to compare two files line-by-line and show the differences between them.
+It is very commonly used by developers to:
+
+1. See what changed between two versions of a file
+
+2. Compare configuration files
+
+3. Verify edits
+
+basic command - diff file1 file2
+
+Output Meaning (Very Important)
+
+diff will show lines with symbols:
+| Symbol | Meaning                          |
+| ------ | -------------------------------- |
+| `<`    | Line from **file1** (left file)  |
+| `>`    | Line from **file2** (right file) |
+| `a`    | Add                              |
+| `d`    | Delete                           |
+| `c`    | Change                           |
+Create the following two files:
+file1.txt
+apple
+banana
+orange
+grapes
+file2.txt
+apple
+banana
+kiwi
+grapes
+1. Find differences-
+diff file1.txt file2.txt
+
+2. View differences in unified format-
+diff -u file1.txt file2.txt
+
+3. View differences side-by-side-
+diff -y file1.txt file2.txt
+
+
