@@ -233,4 +233,44 @@ diff -u file1.txt file2.txt
 3. View differences side-by-side-
 diff -y file1.txt file2.txt
 
+tee command :
+The tee command outputs another command’s results to both the Terminal and a file. It’s helpful if you want to use the data for further processing or backups. 
+e.g  command | tee [options] file_name
+purpose-
+Displays the output of a program and copies it into a file.
+
+Item    Description
+-a	   Adds the output to the end of File instead of writing over it.
+-i	   Ignores interrupts.
+
+locate command :
+The locate command searches for a file and prints its location path
+The locate command in Linux is a fast and efficient tool used to find files by their name. Unlike the find command, it searches through a pre-built database of file paths instead of scanning the entire filesystem, making searches much quicker.
+-Used to search and locate files or directories by name.
+-Works faster than the find command because it uses a pre-indexed database.
+-The database is updated using the updatedb command.
+-Newly created files do not appear until the database is refresh
+
+Example 1: Search a File with Specific Name Using locate Command
+locate sample.txt 
+Updating the database: The updatedb command refreshes the database so newly created files can be found.
+
+find command :
+The find command in Linux is used to search for files and directories based on name, type, size, date, or other conditions. It scans the specified directory and its sub directories to locate files matching the given criteria.
+
+-Search based on modification time (e.g., files edited last week).
+-Locate files with specific permissions or content.
+-Automate tasks like deleting or executing commands on found files.
+
+e.g find [path] [options] [expression]
+Path: Where to start searching (e.g., ~/Documents).
+Options: Refine your search (e.g., -type for files/directories).
+Expression: Criteria like filenames or sizes.
+
+How to find a Specific File Using `find` Command in Linux
+This query is designed to identify a file within a designated directory. In the provided example, it seeks a file named "sample.txt" within the "GFG" directory.
+e.g find ./GFG -name sample.txt 
+The find command traverses the specified directory (./GFG) and looks for a file named "sample.txt." If found, it displays the path to the file.
+
+
 
