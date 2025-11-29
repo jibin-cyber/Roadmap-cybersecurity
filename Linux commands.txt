@@ -272,5 +272,51 @@ This query is designed to identify a file within a designated directory. In the 
 e.g find ./GFG -name sample.txt 
 The find command traverses the specified directory (./GFG) and looks for a file named "sample.txt." If found, it displays the path to the file.
 
+sudo command :
+The sudo (short for Superuser Do) command is one of the most important commands in Linux. It's a prefix you add to other commands to run them with the administrative privileges of another user (by default, the root user).
+
+It's Safer: You don't need to log in as the all-powerful root user for simple tasks. You just "borrow" root's power for one command.
+It's Auditable: When a user runs a sudo command, it's logged in /var/log/auth.log. This creates an audit trail, so you know who ran what command and when.
+It's Granular: The system administrator can precisely control which users can run which commands using the sudoers file.
+
+To execute a command with elevated privileges, simply prepend sudo to the command:
+sudo [command]
+To update the package list on a Debian-based system:
+sudo apt-get update
+
+su and whoami commands :
+The su and whoami commands in Linux are used for user management and identification.
+whoami command:
+The whoami command displays the username of the current effective user. This is the user ID under which the current process is running. It is useful for quickly confirming which user account is executing commands in the terminal, especially after switching users. 
+
+su command:
+The su command, short for "substitute user" or "switch user," allows you to switch to another user account and execute commands with that user's permissions. By default, if no username is specified, su attempts to switch to the root user. You will be prompted to enter the password of the target user.
+Example:
+To switch to the root user-
+su
+To switch to a specific user named john-
+su john
+
+Key differences and uses:
+-whoami is for identifying the current user.
+-su is for changing the current user to another, potentially with elevated privileges (like root).
+-su requires the password of the target user, while sudo (a related command for elevated privileges) typically requires the password of the current user.
+
+chmod command :
+Chmod lets you change the permissions of files or directories.
+Every file in Linux has an owner, a group, and associated permissions that determine who can read, write, or execute the file. Using chmod, Administrators and users can control these permissions to ensure proper access and security. 
+In Linux, file permissions are typically listed in the order of user, group, others (or owner, group, others)
+In a permission string like -rwxrw-r--, the order is:
+User: rwx (read, write, and execute)
+Group: rw- (read and write)
+Others: r-- (read only)
+This is often represented in octal code, where the first digit is the user's permissions, the second is for the group, and the third is for others
+In Linux/Unix file permissions, each r, w, and x corresponds to a specific numerical value, which are then added up to form an octal number (0-7) for each set of permissions. 
+The individual numbers are:
+r (read) = 4
+w (write) = 2
+x (execute) = 1
+- (no permission) = 0 
+
 
 
