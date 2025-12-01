@@ -1,0 +1,11 @@
+Introduction to Python:
+Python is a programming language that lets you work quickly
+and integrate systems more effectively.
+Python's developers typically prioritise readability over performance, Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used.
+Python was made to easily read code where even children can learn python, it is 1 of the easiest programming language
+
+
+
+
+
+
