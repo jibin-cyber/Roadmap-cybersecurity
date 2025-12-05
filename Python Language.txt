@@ -4,6 +4,34 @@ and integrate systems more effectively.
 Python's developers typically prioritise readability over performance, Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used.
 Python was made to easily read code where even children can learn python, it is 1 of the easiest programming language
 
+Variables in Python :
+x=2
+x+2
+4
+x=9
+x+2
+11
+Now I will put value for you
+y=4
+x+y
+13
+_+y - underscroll is last output, in this case it is 13
+17- answer
+Lets start with a name
+name= ('jibin')
+name+'rocks'
+'jibinrocks'
+Fetching the letters 
+fore.g 
+name= ('jibin') 01234
+name [0]
+j- answer
+Now we can use -any number, it will show the number from right side to self, in this case it is 'n'
+we can also know the length of a text
+e.g: myname= ('jibinraj')
+len(myname)- len is the command
+8- answer
+
 
 
 
