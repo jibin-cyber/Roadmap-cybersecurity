@@ -32,6 +32,91 @@ e.g: myname= ('jibinraj')
 len(myname)- len is the command
 8- answer
 
+List in python :
+when we use list in python we should you use square brackets to put values in a variable.
+nums=[20,30,40,50]
+just input nums and then enter
+[20,30,40,50]
+we can use index numbers also - Indexing in Python is the process of accessing individual elements within a sequence (like a string, list, or tuple) using their position, or "index," within that sequence.
+nums[0]
+20
+nums [2:]
+[40, 50]
+nums [-1]
+50
+lets do strings-  In Python, a string is a sequence of characters. For example, "hello" is a string containing a sequence of characters 'h' , 'e' , 'l' , 'l' , and 'o' .
+names =['jibin,vardhan,arjun']
+names
+['jibin,vardhan,arjun']
+now lets put some values-
+values=[9.5,'jibin',40]
+mil= [names, values]
+mil
+[['jibin,vardhan,arjun'], [9.5, 'jibin', 40]]
+
+Python provides a rich set of built-in functions and methods specifically designed for manipulating lists. These can be categorized as follows:
+List Methods-
+Let's look at different list methods in Python:
+while using list function we need to use parentheses brackets
+
+append(): Adds an element to the end of the list.
+copy(): Returns a shallow copy of the list.
+clear(): Removes all elements from the list.
+count(): Returns the number of times a specified element appears in the list.
+extend(): Adds elements from another list to the end of the current list.
+index(): Returns the index of the first occurrence of a specified element.
+insert(): Inserts an element at a specified position.
+pop(): Removes and returns the element at the specified position (or the last element if no index is specified).
+remove(): Removes the first occurrence of a specified element.
+reverse(): Reverses the order of the elements in the list.
+sort(): Sorts the list in ascending order (by default).
+
+input- nums[20, 30, 40, 50]
+nums.append(60)
+nums
+[20, 30, 40, 50, 60]
+nums.insert(2,35)
+nums
+[20, 30, 35, 40, 50, 60]
+nums.remove(35)
+nums
+[20, 30, 40, 50, 60]
+nums.pop(2)
+40
+nums.pop()
+60
+del nums[2:]
+nums
+[20, 30]
+nums.extend([70,80,90,100])
+nums
+[20, 30, 70, 80, 90, 100]
+min(nums)
+20
+max(nums)
+100
+nums.sort()
+nums
+[20, 30, 70, 80, 90, 100]
+
+Tuple and Set in Python :
+Set in Python-
+A Set is an unordered collection of unique elements. Sets are primarily used when membership tests and eliminating duplicate values are needed.
+
+Mutable: Elements can be added or removed.
+Unordered: Does not maintain the order of elements.
+Unique Elements: Duplicate values are automatically removed.
+Heterogeneous: Can store different data types.
+Tuple in Python-
+A Tuple is an ordered, immutable collection of elements. Tuples are often used when data should not be modified after creation. In Tuple we use parenthesus or round brackets
+
+Immutable: Once created, elements cannot be modified.
+Ordered: Maintains the order of elements.
+Allows Duplicates: Can contain duplicate values.
+Heterogeneous: Can store different data types.
+
+
+
 
 
 
