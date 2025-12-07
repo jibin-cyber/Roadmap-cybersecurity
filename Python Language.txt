@@ -115,6 +115,81 @@ Ordered: Maintains the order of elements.
 Allows Duplicates: Can contain duplicate values.
 Heterogeneous: Can store different data types.
 
+Python Dictionary :
+Python dictionary is a data structure that stores the value in key: value pairs. Values in a dictionary can be of any data type and can be duplicated, whereas keys can't be repeated and must be immutable.
+
+Keys are case sensitive which means same name but different cases of Key will be treated distinctly.
+Keys must be immutable which means keys can be strings, numbers or tuples but not lists.
+Duplicate keys are not allowed and any duplicate key will overwrite the previous value.
+Internally uses hashing. Hence, operations like search, insert, delete can be performed in Constant Time.
+
+Dictionary can be created by placing a sequence of elements within curly {} braces.
+Input- d1 = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+print(d1)
+output- {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+
+# create dictionary using dict() constructor
+Input- d2 = dict(a = "Geeks", b = "for", c = "Geeks")
+print(d2)
+output- {'a': 'Geeks', 'b': 'for', 'c': 'Geeks'}
+
+Accessing Dictionary Items-
+We can access a value from a dictionary by using the key within square brackets or get() method.
+d = { "name": "Prajjwal", 1: "Python", (1, 2): [1,2,4] }
+
+# Access using key
+print(d["name"])
+
+# Access using get()
+print(d.get("name"))
+Output
+Prajjwal
+Prajjwal
+
+Adding and Updating Dictionary Items-
+input-d = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+
+# Adding a new key-value pair
+d["age"] = 22
+
+# Updating an existing value
+d[1] = "Python dict"
+
+print(d)
+output-
+{1: 'Python dict', 2: 'For', 3: 'Geeks', 'age': 22}
+
+Removing Dictionary Items-
+del: Removes an item by key.
+pop(): Removes an item by key and returns its value.
+clear(): Empties the dictionary.
+popitem(): Removes and returns the last key-value pair.
+
+d = {1: 'Geeks', 2: 'For', 3: 'Geeks', 'age':22}
+
+# Using del to remove an item
+del d["age"]
+print(d)
+
+# Using pop() to remove an item and return the value
+val = d.pop(1)
+print(val)
+
+# Using popitem to removes and returns
+# the last key-value pair.
+key, val = d.popitem()
+print(f"Key: {key}, Value: {val}")
+
+# Clear all items from the dictionary
+d.clear()
+print(d)
+output-
+{1: 'Geeks', 2: 'For', 3: 'Geeks'}
+Geeks
+Key: 3, Value: Geeks
+{}
+
+
 
 
 
