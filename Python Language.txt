@@ -189,6 +189,66 @@ Geeks
 Key: 3, Value: Geeks
 {}
 
+More on Variables in Python :
+In Python, variables are names that refer to objects in memory. The "address" of a variable, in the context of Python, refers to the memory address where the object that the variable points to is stored. This is not the same as a C-style variable address, which directly refers to a specific memory location holding the variable's value. In Python, variables are more like labels or tags for objects. 
+To find the memory address of the object a variable refers to, you use the built-in id() function. This function returns a unique identifier for an object, which is effectively its memory address during the object's lifetime.
+
+id(num)
+140707540399144
+name= 'jibin'
+id(num)
+140707540399144
+id(name)
+1243011247408
+
+Now If we want to create multiple variables and it has same data or value, it will have same id or address for memory efficient
+a= 10
+b= a
+a
+10
+b
+10
+id(a)
+140707540399304
+id(b)
+140707540399304
+k=10
+id(10)
+140707540399304
+id(k)
+140707540399304
+Its basically tagging the value 10, if only if you change the value to some other number, it will change your id or address
+If any data or value is not tagged by any variable, then it is garbage collected
+
+Data Types in Python:
+Data types in Python are a way to classify data items. They represent the kind of value, which determines what operations can be performed on that data. Since everything is an object in Python programming, Python data types are classes and variables are instances (objects) of these classes.
+Python Data Types-
+1. text
+2. None
+3. Numeric- Integer, float, complex
+4. sequence- list, tuple, string, range
+5. mapping- dictionary
+6. set
+7. boolean
+
+Example	                                  Data Type	
+x = "Hello World"	                        str	
+x = 20	                                    int	
+x = 20.5	                                float	
+x = 1j	                                    complex	
+x = ["apple", "banana", "cherry"]	        list	
+x = ("apple", "banana", "cherry")	        tuple	
+x = range(6)	                            range	
+x = {"name" : "John", "age" : 36}	        dict	
+x = {"apple", "banana", "cherry"}	        set	
+x = frozenset({"apple", "banana", "cherry"})frozenset	
+x = True	                                bool	
+x = b"Hello"	                            bytes	
+x = bytearray(5)	                        bytearray	
+x = memoryview(bytes(5))	                memoryview	
+x = None	                                NoneType	
+
+
 
 
 
