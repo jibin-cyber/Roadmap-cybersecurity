@@ -248,6 +248,79 @@ x = bytearray(5)	                        bytearray
 x = memoryview(bytes(5))	                memoryview	
 x = None	                                NoneType	
 
+Operators in Python :
+Arithmetic Operators-
+| Operator | Meaning             | Example       |
+| -------- | ------------------- | ------------- |
+| `+`      | Addition            | `5 + 2 → 7`   |
+| `-`      | Subtraction         | `5 - 2 → 3`   |
+| `*`      | Multiplication      | `5 * 2 → 10`  |
+| `/`      | Division            | `5 / 2 → 2.5` |
+| `//`     | Floor division      | `5 // 2 → 2`  |
+| `%`      | Modulus (remainder) | `5 % 2 → 1`   |
+| `**`     | Exponent            | `2 ** 3 → 8`  |
+
+Assignment Operators-
+| Operator | Example  | Meaning     |
+| -------- | -------- | ----------- |
+| `=`      | `x = 5`  | Assign      |
+| `+=`     | `x += 2` | `x = x + 2` |
+| `-=`     | `x -= 2` | `x = x - 2` |
+| `*=`     | `x *= 2` | `x = x * 2` |
+| `/=`     | `x /= 2` | `x = x / 2` |
+a,b=5,6
+a
+5
+b
+6
+unary operator-
+n=7
+n
+7
+-n
+-7
+n=-n
+n
+-7
+Comparison (Relational) Operators-
+Used to compare two values. Result is True or False.
+| Operator | Meaning               |
+| -------- | --------------------- |
+| `==`     | Equal to              |
+| `!=`     | Not equal to          |
+| `>`      | Greater than          |
+| `<`      | Less than             |
+| `>=`     | Greater than or equal |
+| `<=`     | Less than or equal    |
+
+Logical Operators-
+Used to combine conditions.
+| Operator | Meaning                 |
+| -------- | ----------------------- |
+| `and`    | True if both are True   |
+| `or`     | True if any one is True |
+| `not`    | Reverse the result      |
+
+a=5
+b=4
+a<8 and b<5
+True
+a<8 and b<2
+False
+In 'and' if we 1 condition is true and other is false, the the answer will be false because and is used for 2 same conditions
+now lets do 'or' operator -
+a<8 or b<2
+True
+In 'or' even if 1 condition is true, then the output will be true.
+now lets do 'not' operator-
+The not keyword in Python is a logical operator used to obtain the negation or opposite Boolean value of an operand.
+ Basic example of not operator with True. Here, we used "not" operator to change the true value to false which is the negation of True.
+ a = True
+print(not a)
+output
+False
+
+
 
 
 
