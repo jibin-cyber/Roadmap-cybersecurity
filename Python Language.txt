@@ -320,6 +320,54 @@ print(not a)
 output
 False
 
+Number System Conversion in Python :
+In Python, number systems mainly refer to how numbers are represented and converted between different bases.
+
+Python commonly works with these four number systems-
+1️⃣ Decimal (Base 10)
+Digits: 0–9
+
+Default number system in Python
+a = 25
+print(a)
+
+2️⃣ Binary (Base 2)
+Digits: 0, 1
+
+Prefix: 0b or 0B
+
+b = 0b11001
+print(b)        # 25
+
+print(bin(25))  # '0b11001'
+
+3️⃣ Octal (Base 8)
+Digits: 0–7
+
+Prefix: 0o or 0O
+
+c = 0o31
+print(c)        # 25
+
+Convert decimal → octal-
+print(oct(25))  # '0o31'
+
+4️⃣ Hexadecimal (Base 16)
+Digits: 0–9 and A–F
+
+Prefix: 0x or 0X
+
+d = 0x19
+print(d)        # 25
+Convert decimal → hexadecimal-
+print(hex(25))  # '0x19'
+
+🔁 Converting Between Number Systems
+Use int(value, base) to convert from any base to decimal:
+print(int("11001", 2))   # Binary → Decimal
+print(int("31", 8))      # Octal → Decimal
+print(int("19", 16))     # Hex → Decimal
+
 
 
 
