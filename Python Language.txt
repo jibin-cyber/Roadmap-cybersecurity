@@ -368,6 +368,95 @@ print(int("11001", 2))   # Binary → Decimal
 print(int("31", 8))      # Octal → Decimal
 print(int("19", 16))     # Hex → Decimal
 
+Python BitWise Operators :
+compliment operator-
+Inverts all bits (two’s complement effect).
+print(~12)   # -13
+
+12  →  0000...1100
+~12 →  1111...0011  → -13
+Now we will understand how to come to the value of -13
+First we will consider bin (12)
+which is 1100, how?
+2|12 - 0
+2|6 - 0
+2|3 - 1
+ |1 
+ In this we will take the remainder from below which is 1100, so bin(12) is 1100
+ but there is a problem in 4 bits 1100, 4-bit signed numbers cannot represent −13, because 4 bit signed range −8  to  +7
+ CPUs usually use 8 / 16 / 32 / 64 bits, not 4
+ so thats why we will use 8 bits so now 
+ bin(12)= 00001100
+ always add 0,s before the value
+ 1's comp - ~12 = 11110011 
+ 2's comp = 1's comp+1
+ ans= 11110011
+     +       1
+     11110010
+Now we need to find -13, so we need check the comp of 13 aswell, for that we need to check bin of 13 aswell
+bin(13)
+2|13
+2|6 - 1
+2|3 - 0
+2|1 - 1
+bin(13)= 00001101
+1's comp = 11110010
+2's comp = 11110011
+so here we go the ~12 = -13 hence proved
+
+ Where compliment is used-
+
+CPUs (Intel, AMD, ARM)
+
+Programming languages (C, C++, Python internally, Java)
+
+Calculators
+
+Embedded systems
+
+Without complement → negative numbers would not exist in computers.
+
+And& and or | operators-
+e.g- 12 & 13
+we will do bin for both 12 & 13
+12= 00001100
+13= 00001101
+ans= 00001100- so answer is 12
+
+Now 12 or 13, 12|13
+12= 00001100
+13= 00001101
+ans= 00001101- so answer is 13
+If comparing even one times 1 comes, value will be 1
+
+XOR-
+we will use ^ cap symbol for XOR
+12^13= 1
+1st we will take bin of both 12 and 13
+12= 00001100
+13= 00001101
+ans=00000001
+
+25^30 = 7
+25= 00011001
+30= 00011110
+ans=00000111
+         421= 7
+
+Left shift <<:
+In left shift we are gaining
+for e.g 10<<2 = 40, 10 bytes 2 bits
+First we will take bin (10)= 1010
+so we will add 2 0's after 1010
+ans= 101000
+    32168421 = 32+8= 40
+
+Right shift >>:
+In right shift we are losing
+10>>2 = 2
+1010= 10= 2
+
+
 
 
 
