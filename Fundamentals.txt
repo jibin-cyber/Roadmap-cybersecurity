@@ -851,7 +851,19 @@ The Physical Layer is responsible for the physical connection between devices. I
 
 Functions of the Physical Layer include the modulation, bit synchronization, and transmission of raw binary data over the physical medium. Technologies such as Fiber Optics and Wi-Fi operate at this layer, ensuring that the data physically moves from one device to another in the network.
 
+Network Ports:
+Now a port is not a physical connection,  it's a logical connection that is used by  programs and services to exchange information. It specifically determines which program or service  on a computer or server that is going to be used.  Whether that is pulling up a web page, using  an FTP service, accessing email and so on. And ports have a unique number that identifies  them. The number ranges from 0 - 65535. 
 
+Common Ports and their Uses-
+For example some common ports are port 80 and  443 which are used for web pages. Port number 21  is used for FTP. And port number 25 is used for  email. A port number is always associated with an IP address. An IP address is a numeric address.  It's an identifier for a computer or device on  a network. Every device has to have an  IP address for communication purposes.  
+
+Now in simple terms, what does this all mean? So  as an example, let's take a very common port that just about everyone uses every day and that is  port number 80. Port 80 is associated with HTTP which is web pages. Whenever you visit a web  page from your computer, you're using port 80  
+
+Port Numbers-
+port numbers range from 0 - 65535. And they are assigned by an organization called the  Internet Assigned Numbers Authority. And these 65,000 port numbers are broken down into three  categories. 
+Port numbers from 0 - 1023 are called system or well-known ports. These are common ports that most people use every day. And I've mentioned a few of these ports already, such as port 80, 443,  25, and 21. 
+Port numbers from 1024 - 49151 are called user or registered ports. These are ports  that can be registered by companies and developers.
+Port numbers from 49152 - 65535 these are called dynamic or private ports.These are client-side ports that are free  to use. These are the port numbers that your computer assigns temporarily to itself during  a session, for example when viewing a web page.
 
 
 
