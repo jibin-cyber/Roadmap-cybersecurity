@@ -865,6 +865,31 @@ Port numbers from 0 - 1023 are called system or well-known ports. These are comm
 Port numbers from 1024 - 49151 are called user or registered ports. These are ports  that can be registered by companies and developers.
 Port numbers from 49152 - 65535 these are called dynamic or private ports.These are client-side ports that are free  to use. These are the port numbers that your computer assigns temporarily to itself during  a session, for example when viewing a web page.
 
+What Is NAS?
+NAS is a device or devices with a large data storage capacity that provides file-based data storage services to other devices on a network. 
+At its core, NAS operates as a standalone device connected to a network, offering shared access to files and folders.
+
+How NAS Works?
+The NAS file service uses the ethernet network to send and receive files. This system employs protocols like network file system (NFS) and server message block (SMB), enabling seamless data exchange between multiple users.
+NAS devices are designed to be easy to manage, making them a popular choice for home users, small businesses, and departments seeking straightforward centralized storage. They offer an easy way for multiple users in multiple locations to access data, which is valuable when users are collaborating on projects or need to share information. 
+For small business or departments, installing NAS is typically driven by the desire to share files locally and remotely, have files available 24/7, achieve data redundancy, have the ability to replace and upgrade hard drives in the system, and most importantly, support integrations with cloud storage that provide a location for necessary automatic data backups.
+
+Limitations of NAS-
+The weaknesses of NAS primarily revolve around scalability and performance. If more users need access, the server might struggle to keep pace. If you overprovisioned your NAS, you may be able to add storage. But sooner or later you’ll need to upgrade to a more powerful system with a bigger on-board processor, more memory, and faster and larger network connections. 
+Another drawback ties back to ethernet’s inherent nature. Ethernet divides data into packets, forwarding them to their destination. Yet, depending on network traffic or other issues, potential delays or disorder in packet transmission can hinder file availability until all packets arrive and are put back in order. 
+
+What Is a SAN?
+SANs are engineered for high-performance and mission-critical applications. They function by connecting multiple storage devices, such as disk arrays or tape libraries, to a dedicated network that is separate from the main local area network (LAN). This isolation ensures that storage traffic doesn’t interfere with regular network traffic, leading to optimized performance and data availability.
+Unlike NAS, a SAN operates at the block level, allowing servers to access storage blocks directly. This architecture is optimized for data-intensive tasks like database management and virtualization or video editing, where low latency and consistent high-speed access are essential.
+
+How Does a SAN Work?
+-A SAN is built from a combination of servers and storage over a high speed, low latency interconnect that allows direct Fibre Channel (FC) connections from the client to the storage volume to provide the fastest possible performance. 
+-Because it’s considerably more complex and expensive than NAS, a SAN is typically used by businesses versus individuals and typically requires administration by an IT staff. 
+-SANs are optimized for data-intensive applications. For example, hundreds of video editors can simultaneously access tens of GB per second of storage simultaneously without straining the network. 
+-SANs can be easily expanded by adding more storage devices, making them suitable for growing storage needs. Storage resources can be efficiently managed and allocated from a central location. SANs also typically include redundancy and fault tolerance mechanisms to ensure data integrity and availability.
+
+Limitations of a SAN-
+The challenge of a SAN can be summed up in its cost and administration requirements—having to dedicate and maintain both a separate ethernet network for metadata file requests and implement a FC network can be a considerable investment. That being said, a SAN is often the only way to provide very fast data access for a large number of users that also can scale to supporting hundreds of users at the same time.
 
 
 
